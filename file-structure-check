@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Home Page </title>
+</head>
+
+
+ file-structure-check/
+  index.html
+  about.html
+  images/image/Star Wars.webp 
+    profile.jpg
+  css/
+    style.css 
+<h1>thisa webpage about someting</h1>
+<a href="about.html">Go to About Page</a> 
+
+<a href="index.html">Back to Home Page</a>
+
+/* CSS file connected for future styling */ 
