@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript Playground</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>My JavaScript Playground</h1>
+        <p>Learning to make websites interactive!</p>
+    </header>
+
+    <main class="container">
+
+        <!-- PART 1: BASIC INTERACTION -->
+        <section class="card">
+            <h2>My First JavaScript Button</h2>
+
+            <p id="message">
+                Nothing has happened yet.
+            </p>
+
+            <button id="startButton" type="button">
+                Click Me!
+            </button>
+        </section>
+
+        <!-- PART 2: YOUR RESEARCHED FEATURE -->
+        <section class="card">
+            <h2>My Custom JavaScript Feature</h2>
+
+            <p>
+                This section is for the feature you
+                research and create yourself!
+            </p>
+
+            <label for="featureInput">
+                Enter something (optional):
+            </label>
+
+            <input
+                type="text"
+                id="featureInput"
+                placeholder="Type something here..."
+            >
+
+            <button id="featureButton" type="button">
+                Try My Feature!
+            </button>
+
+            <p id="featureOutput" class="result">
+                Your result will appear here.
+            </p>
+
+            <p id="secretMessage" hidden>
+                Congratulations! You found the secret message!
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>made by Miguel Trevino | CIS-099</p>
+    </footer>
+
+</body>
+</html>
